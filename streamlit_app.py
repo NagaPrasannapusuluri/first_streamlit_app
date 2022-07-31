@@ -28,7 +28,6 @@ import streamlit
 streamlit.title("My mom's new healthy diner")
 
 
-
 streamlit.header('Breakfast favourites')
 streamlit.text('🥣Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥗Kale, Spinach & Rocket Smoothie')
