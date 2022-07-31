@@ -8,7 +8,7 @@ streamlit.header('Breakfast Menu')
 streamlit.text('🥣Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥗Kale, Spinach & Rocket Smoothie')
 streamlit.text('🐔Hard-Boiled Free-Range Egg')
-streamlit.text('🥑🍞Hard-Boiled Free-Range Egg')
+streamlit.text('🥑🍞Avocoda toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 import pandas
@@ -20,3 +20,17 @@ streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 streamlit.dataframe(my_fruit_list)
 
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
+
+
+
+import streamlit
+
+streamlit.title("My mom's new healthy diner")
+
+
+streamlit.header('Breakfast favourites')
+streamlit.text('🥣Omega 3 & Blueberry Oatmeal')
+streamlit.text('🥗Kale, Spinach & Rocket Smoothie')
+streamlit.text('🐔Hard-Boiled Free-Range Egg')
+streamlit.text('🥑🍞Avocoda toast')
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
